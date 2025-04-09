@@ -100,7 +100,6 @@ plt.xlabel("Actual Sales ")
 plt.ylabel("Predicted Sales ")
 plt.title("Actual vs. Predicted Sales (Random Forest)")
 plt.show()
-# Calculate residuals (errors)
 residuals = y_test - y_pred
 plt.figure(figsize=(8,6))
 sns.histplot(residuals, bins=30, kde=True, color='purple')
